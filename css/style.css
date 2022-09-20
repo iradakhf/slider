@@ -1,0 +1,42 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+body {
+  overflow: hidden;
+}
+
+.common, .slider .previous, .slider .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: aliceblue;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.slider img {
+  position: relative;
+  width: 100%;
+}
+.slider .generalDots {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slider .generalDots .box {
+  margin: 0 2rem;
+  border: 1px solid black;
+  border-radius: 11rem;
+  padding: 1rem;
+  background-color: beige;
+}
+.slider .next {
+  right: 20px;
+}
+.slider .previous {
+  left: 20px;
+}
+
+.active {
+  background-color: blue !important;
+}/*# sourceMappingURL=style.css.map */
