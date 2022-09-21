@@ -37,17 +37,5 @@ setInterval(() => {
    AutoPlay();
 }, 3000);
 
-let boxes = document.querySelectorAll(".generalDots .box");
-for (let i = 0; i < boxes.length; i++) {
-    index.onchange = function() {
-    let active = document.querySelector(".active");
-     if(index==i){
-      boxes[i].classList.add("active");
-     }
-     else{
-      boxes[i].classList.remove("active");
-     }
-    }
-    
-}
+
 
